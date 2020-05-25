@@ -30,6 +30,7 @@ with mss.mss() as sct:
     y = 0
     y2 = 99
 
+    # Area to look on monitor (currently set on second monitor)
     mon = {'top': sct.monitors[2]["top"]+600, 'left': sct.monitors[2]["left"]+320, 'width': 50, 'height': 100, 'mon': 2}
 
     while 1:
